@@ -9,6 +9,11 @@
 # production
 /build
 
+# lib and IDE
+.idea/
+.vscode/
+.lib/
+
 # misc
 .DS_Store
 .env.local
