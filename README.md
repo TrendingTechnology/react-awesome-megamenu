@@ -28,7 +28,7 @@ import MegaMenu from "react-awesome-mega-menu";
 
 ![alt text](/resources/react-awesome-mega-menu.gif "Mega menu in action")
 
-<h3> Download & Installation </h3>
+<h3> Installation </h3>
 
 ```shell
 $ npm i react-awesome-mega-menu --save
