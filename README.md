@@ -18,29 +18,8 @@
 | itemIdSeperator | string |            "/" |                      Node identifier seperator |
 | onNodeClick     |  func  |                | Function to invoke when mega menu item clicked |
 
-<h3> Demo </h3>
-
-<a href="#"> Demo </a>
-
-<h3> Code Demo </h3>
-```json
-
-let nodeList = [ { name: "Fashion", imageURL:
-"", itemId: "fashion",
-nodes: [ { name: "Women", imageURL:
-"", nodes: [ {
-name: "Trousers", nodes: [] }, { name: "Top", nodes: [] }, { name: "Skirt",
-nodes: [] } ] }, { name: "Men", nodes: [ { name: "Caps", nodes: [{ name:
-"Addidas" }, { name: "Calvin" }] }, { name: "Shoes", nodes: [] }, { name:
-"Shirts & Polos", nodes: [ { name: "Shirts", imageURL:
-"", nodes: [] }, { name:
-"T-shirt", nodes: [] } ] }];
-
-````
-```html
-<MegaMenu nodeList={nodeList}
-onNodeClick={val => console.log(val)} />
-````
+<h3> Samples </h3>
+<a href="https://drive.google.com/file/d/1EoZOKm72UtB0kvfFvSTYEJ-bmKrzfkoF/view?usp=sharing"> Sample nodeList object </a>
 
 <h3> Download & Installation </h3>
 
@@ -53,7 +32,7 @@ Keep it simple. Keep it minimal.
 
 <h3>Authors or Acknowledgments</h3>
 <ul>
-  <li>[Hasitha Jayasundara](https://www.linkedin.com/in/hasithajayasundara/)</li>
+<a href="https://www.linkedin.com/in/hasithajayasundara/"> Hasitha Jayasundara </a>
 </ul>
 
 <h3>License</h3>

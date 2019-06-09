@@ -19,7 +19,8 @@
     "build": "webpack",
     "start-js": "watch 'npm run build' src ",
     "dev": "npm-run-all -p scss start-js",
-    "scss": "node-sass --watch src/scss -o src/css"
+    "scss": "node-sass --watch src/scss -o src/css",
+    "prepublish": "npm run build"
   },
   "peerDependencies": {
     "prop-types": "^15.6.0",
