@@ -1,0 +1,353 @@
+.mega-menu-main-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 18px; }
+
+.mega-menu-main-container ul {
+  position: fixed;
+  border: 1px solid grey;
+  list-style: none;
+  background: white;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto; }
+
+.mega-menu-1 {
+  margin: 0px; }
+
+.mega-menu-2 {
+  display: none; }
+
+.mega-menu-3 {
+  display: none; }
+
+.mega-menu-4 {
+  display: none; }
+
+.mega-menu-5 {
+  display: none; }
+
+.mega-menu-6 {
+  display: none; }
+
+.mega-menu-7 {
+  display: none; }
+
+.mega-menu-8 {
+  display: none; }
+
+.mega-menu-9 {
+  display: none; }
+
+.mega-menu-10 {
+  display: none; }
+
+.mega-menu-main-container .mega-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  cursor: pointer; }
+
+.mega-menu-main-container ul li .category-image {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0% 2%; }
+
+.mega-menu-main-container ul li .category-image img {
+  height: 30px; }
+
+.mega-menu-main-container ul li .category-name {
+  flex: 5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+  padding-left: 1%;
+  font-size: 90%;
+  color: #222;
+  background: white;
+  text-align: left;
+  border: 0px; }
+
+.mega-menu-1 li:hover span {
+  color: #fff;
+  background: #ccc; }
+
+.mega-menu-1 li:hover .mega-menu-2 li span {
+  background: #fff;
+  color: #222; }
+
+.mega-menu-1 li .mega-menu-2 li:hover span {
+  color: #fff;
+  background: #ccc; }
+
+.mega-menu-1 li .mega-menu-2 li:hover .mega-menu-3 span {
+  background: #fff;
+  color: #222; }
+
+.mega-menu-1 li .mega-menu-2 li .mega-menu-3 li:hover span {
+  color: #fff;
+  background: #ccc; }
+
+.mega-menu-1 li .mega-menu-2 li .mega-menu-3 li:hover .mega-menu-4 span {
+  background: #fff;
+  color: #222; }
+
+.mega-menu-1 li .mega-menu-2 li .mega-menu-3 li .mega-menu-4 li:hover span {
+  color: #fff;
+  background: #ccc; }
+
+.mega-menu-1
+li
+.mega-menu-2
+li
+.mega-menu-3
+li
+.mega-menu-4:hover
+.mega-menu-5
+span {
+  background: #fff;
+  color: #222; }
+
+.mega-menu-1
+li
+.mega-menu-2
+li
+.mega-menu-3
+li
+.mega-menu-4
+li
+.mega-menu-5:hover
+span {
+  color: #fff;
+  background: #ccc; }
+
+.mega-menu-1
+li
+.mega-menu-2
+li
+.mega-menu-3
+li
+.mega-menu-4
+li
+.mega-menu-5
+li:hover
+.mega-menu-6
+span {
+  background: #fff;
+  color: #222; }
+
+.mega-menu-1
+li
+.mega-menu-2
+li
+.mega-menu-3
+li
+.mega-menu-4
+li
+.mega-menu-5
+li
+.mega-menu-6
+li:hover
+span {
+  color: #fff;
+  background: #ccc; }
+
+.mega-menu-1
+li
+.mega-menu-2
+li
+.mega-menu-3
+li
+.mega-menu-4
+li
+.mega-menu-5
+li
+.mega-menu-6
+li:hover
+.mega-menu-7
+span {
+  background: #fff;
+  color: #222; }
+
+.mega-menu-1
+li
+.mega-menu-2
+li
+.mega-menu-3
+li
+.mega-menu-4
+li
+.mega-menu-5
+li
+.mega-menu-6
+li
+.mega-menu-7
+li:hover
+span {
+  color: #fff;
+  background: #ccc; }
+
+.mega-menu-1
+li
+.mega-menu-2
+li
+.mega-menu-3
+li
+.mega-menu-4
+li
+.mega-menu-5
+li
+.mega-menu-6
+li
+.mega-menu-7
+li:hover
+.mega-menu-8
+li
+span {
+  background: #fff;
+  color: #222; }
+
+.mega-menu-1
+li
+.mega-menu-2
+li
+.mega-menu-3
+li
+.mega-menu-4
+li
+.mega-menu-5
+li
+.mega-menu-6
+li
+.mega-menu-7
+li
+.mega-menu-8
+li:hover
+span {
+  color: #fff;
+  background: #ccc; }
+
+.mega-menu-1
+li
+.mega-menu-2
+li
+.mega-menu-3
+li
+.mega-menu-4
+li
+.mega-menu-5
+li
+.mega-menu-6
+li
+.mega-menu-7
+li
+.mega-menu-8
+li:hover
+.mega-menu-9
+li
+span {
+  background: #fff;
+  color: #222; }
+
+.mega-menu-1
+li
+.mega-menu-2
+li
+.mega-menu-3
+li
+.mega-menu-4
+li
+.mega-menu-5
+li
+.mega-menu-6
+li
+.mega-menu-7
+li
+.mega-menu-8
+li
+.mega-menu-9
+li:hover
+span {
+  color: #fff;
+  background: #ccc; }
+
+.mega-menu-1
+li
+.mega-menu-2
+li
+.mega-menu-3
+li
+.mega-menu-4
+li
+.mega-menu-5
+li
+.mega-menu-6
+li
+.mega-menu-7
+li
+.mega-menu-8
+li
+.mega-menu-9
+li:hover
+.mega-menu-10
+span {
+  background: #fff;
+  color: #222; }
+
+.mega-menu-1
+li
+.mega-menu-2
+li
+.mega-menu-3
+li
+.mega-menu-4
+li
+.mega-menu-5
+li
+.mega-menu-6
+li
+.mega-menu-7
+li
+.mega-menu-8
+li
+.mega-menu-9
+li
+.mega-menu-10
+li:hover
+span {
+  color: #fff;
+  background: #ccc; }
+
+.mega-menu-1 li:hover .mega-menu-2 {
+  display: block; }
+
+.mega-menu-2 li:hover .mega-menu-3 {
+  display: block; }
+
+.mega-menu-3 li:hover .mega-menu-4 {
+  display: block; }
+
+.mega-menu-4 li:hover .mega-menu-5 {
+  display: block; }
+
+.mega-menu-5 li:hover .mega-menu-6 {
+  display: block; }
+
+.mega-menu-6 li:hover .mega-menu-7 {
+  display: block; }
+
+.mega-menu-7 li:hover .mega-menu-8 {
+  display: block; }
+
+.mega-menu-8 li:hover .mega-menu-9 {
+  display: block; }
+
+.mega-menu-9 li:hover .mega-menu-10 {
+  display: block; }

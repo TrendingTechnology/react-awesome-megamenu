@@ -1,0 +1,51 @@
+{
+  "name": "react-awesome-mega-menu",
+  "version": "1.0.0",
+  "description": "An awesome mega menu component",
+  "main": "./lib/MegaMenu.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hasithajayasundara/react-awesome-megamenu.git"
+  },
+  "keywords": [
+    "react-awesome-megamenu"
+  ],
+  "author": "hasithajayasundara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasithajayasundara/react-awesome-megamenu/issues"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start-js": "watch 'npm run build' src ",
+    "dev": "npm-run-all -p scss start-js",
+    "scss": "node-sass --watch src/scss -o src/css"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "style-loader": "^0.23.1",
+    "watch": "^1.0.2",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1",
+    "npm-run-all": "^4.1.3"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "sass-loader": "^7.1.0"
+  }
+}
