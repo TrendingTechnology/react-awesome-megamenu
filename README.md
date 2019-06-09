@@ -26,7 +26,7 @@ import MegaMenu from "react-awesome-mega-menu";
 <MegaMenu nodeList={nodeList} onNodeClick={val => console.log(val)} />
 ```
 
-![alt text](https://media.giphy.com/media/vKXr5fc8KB0MOGtdiB/giphy.gif "Mega menu in action")
+![alt text](/resources/react-awesome-mega-menu.gif "Mega menu in action")
 
 <h3> Download & Installation </h3>
 
