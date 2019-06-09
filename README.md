@@ -1,7 +1,5 @@
 <h1 align="center"> react-awesome-megamenu </h1>
 
-<hr/>
-
 <p>The package will generate a mega menu up to 10 columns </p>
 
 <h3> Notes </h3>
@@ -26,6 +24,7 @@
 
 <h3> Code Demo </h3>
 ```json
+
 let nodeList = [ { name: "Fashion", imageURL:
 "", itemId: "fashion",
 nodes: [ { name: "Women", imageURL:
@@ -35,12 +34,13 @@ nodes: [] } ] }, { name: "Men", nodes: [ { name: "Caps", nodes: [{ name:
 "Addidas" }, { name: "Calvin" }] }, { name: "Shoes", nodes: [] }, { name:
 "Shirts & Polos", nodes: [ { name: "Shirts", imageURL:
 "", nodes: [] }, { name:
-"T-shirt", nodes: [] } ] }]; 
-```
+"T-shirt", nodes: [] } ] }];
+
+````
 ```html
 <MegaMenu nodeList={nodeList}
 onNodeClick={val => console.log(val)} />
-```
+````
 
 <h3> Download & Installation </h3>
 
@@ -53,7 +53,7 @@ Keep it simple. Keep it minimal.
 
 <h3>Authors or Acknowledgments</h3>
 <ul>
-  <li>Hasitha Jayasundara</li>
+  <li>[Hasitha Jayasundara](https://www.linkedin.com/in/hasithajayasundara/)</li>
 </ul>
 
 <h3>License</h3>
