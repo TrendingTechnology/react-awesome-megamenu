@@ -19,7 +19,7 @@
 | onNodeClick     |  func  |                | Function to invoke when mega menu item is clicked |
 
 <h3> Samples </h3>
-<a href="https://drive.google.com/file/d/1EoZOKm72UtB0kvfFvSTYEJ-bmKrzfkoF/view?usp=sharing"> Sample nodeList object </a>
+<a href="/resources/NodeList.js">View sample nodeList object </a>
 
 ```shell
 import MegaMenu from "react-awesome-mega-menu";
