@@ -1,4 +1,4 @@
-<h1 align="center"> react-awesome-mega-menu </h1>
+<h1 align="center"> react-awesome-megamenu </h1>
 
 <p>The package will generate a mega menu up to 10 columns </p>
 
